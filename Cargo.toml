@@ -1,0 +1,10 @@
+[package]
+name = "socks5"
+version = "0.1.0"
+authors = ["YuWeiWu <wusyong9104@gmail.com>"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+description = "WIP"
+
+[dependencies]
+mio = { version = "0.7.0", features = ["tcp", "os-poll"] }
